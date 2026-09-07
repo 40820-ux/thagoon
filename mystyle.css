@@ -1,0 +1,36 @@
+.container{
+width:1024px;
+margin:0 auto;
+}
+header{height:200px;
+background-image:url(imgg/h1.jpg);
+}
+nav{
+width:25%;
+height:auto;
+background-color:#3399CC;
+float:left;
+}
+article{
+width:75%;
+height:auto;
+background-color:#3399CC;
+float:left;
+}
+section::arter{
+display:table;
+content:"";
+clear:left;
+}
+footer{
+background-color:#3399CC;
+text-align:center;
+color:#eee;
+padding:25px;
+}
+//-----------------
+ul{list-style:none; padding:0px; margin:0px;}
+a:link{color:#FAF0E6;background-color:#FAF0E6;display:block;text-align:center;width:200px;padding:10px;text-decoration:none;}
+a:hover{color:#FFDAB9; background-color:#FFDAB9;}
+a:active{color:#E6E6FA;}
+a:visited{color:#F4A460;}
